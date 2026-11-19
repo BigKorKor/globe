@@ -1,0 +1,65 @@
+[
+  {
+    "id": "m2007",
+    "year": 2007,
+    "title": "Singapore Development Centre opens",
+    "description": "PayPal opens its Singapore Development Centre, its first engineering footprint on the ground in Singapore.",
+    "lat": 1.30,
+    "lng": 103.78,
+    "source": "PayPal APAC Newsroom — 'Celebrating 15 years of the Singapore Development Centre' (SDC opened 2007; 15 years marked in 2022)"
+  },
+  {
+    "id": "m2010",
+    "year": 2010,
+    "title": "International headquarters and Asia expansion",
+    "description": "Singapore becomes PayPal's international headquarters. PayPal doubles its Asia-Pacific team and adds more than a hundred roles in Singapore.",
+    "lat": 1.35,
+    "lng": 103.87,
+    "source": "PayPal press release, 17 Mar 2010 — 'PayPal to Double Its Presence in Asia by End of 2010' (refers to Singapore as international HQ, 100+ new SG roles)"
+  },
+  {
+    "id": "m2016",
+    "year": 2016,
+    "title": "Innovation Lab opens, the first outside the US",
+    "description": "PayPal launches its Innovation Lab in Singapore, its first anywhere outside the United States, working with universities, startups and small businesses.",
+    "lat": 1.2954,
+    "lng": 103.8590,
+    "source": "Ministry of Trade & Industry SG — Speech at the launch of PayPal Innovation Lab; Digital News Asia / Finance Magnates (first PayPal Innovation Lab outside the US, 2016)"
+  },
+  {
+    "id": "m2017",
+    "year": 2017,
+    "title": "Deepening the Singapore fintech ecosystem",
+    "description": "PayPal co-sponsors the Singapore FinTech Festival and backs local fintech talent, including a fintech scholarship worth 180,000 Singapore dollars.",
+    "lat": 1.334,
+    "lng": 103.96,
+    "source": "PayPal Public Policy Newsroom — 'PayPal Co-sponsors 2017 FinTech Festival in Singapore'; scholarship coverage, Feb 2017"
+  },
+  {
+    "id": "m2021",
+    "year": 2021,
+    "title": "Singapore workforce expansion",
+    "description": "PayPal grows its Singapore team by about 25 percent, roughly 150 roles, across software engineering, product, cybersecurity and data science.",
+    "lat": 1.28,
+    "lng": 103.85,
+    "source": "Marketing-Interactive — 'PayPal to expand Singapore workforce by 25%, 150 jobs open' (2021)"
+  },
+  {
+    "id": "m2022",
+    "year": 2022,
+    "title": "Singapore Development Centre turns 15",
+    "description": "The Singapore Development Centre marks 15 years powering global payments, engineering, information security and risk from Singapore.",
+    "lat": 1.29,
+    "lng": 103.80,
+    "source": "PayPal APAC Newsroom — 'Here For the Long Run: Celebrating 15 years of the Singapore Development Centre' (2022)"
+  },
+  {
+    "id": "m2026",
+    "year": 2026,
+    "title": "Approaching two decades in Singapore",
+    "description": "From a single delivery centre in 2007 to a regional hub, PayPal nears two decades in Singapore.",
+    "lat": 1.2966,
+    "lng": 103.8547,
+    "source": "Derived from the 2007 SDC opening (PayPal APAC Newsroom). NOTE: 2026 = 19 years; the true 20-year anniversary is 2027 — adjust framing/date as needed."
+  }
+]

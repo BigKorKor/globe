@@ -1,0 +1,434 @@
+[
+  {
+    "id": "sg-mum",
+    "label": "Singapore ↔ Mumbai",
+    "sinceYear": 2009,
+    "from": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "to": {
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "money": {
+      "value": 38.2,
+      "yoyGrowthPct": 14.5
+    },
+    "fraud": {
+      "value": 42,
+      "yoyGrowthPct": 9
+    },
+    "compliance": {
+      "value": 310,
+      "yoyGrowthPct": 22
+    }
+  },
+  {
+    "id": "sg-jkt",
+    "label": "Singapore ↔ Jakarta",
+    "sinceYear": 2008,
+    "from": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "to": {
+      "name": "Jakarta",
+      "lat": -6.2088,
+      "lng": 106.8456
+    },
+    "money": {
+      "value": 52.6,
+      "yoyGrowthPct": 9.1
+    },
+    "fraud": {
+      "value": 27.5,
+      "yoyGrowthPct": 15.3
+    },
+    "compliance": {
+      "value": 480,
+      "yoyGrowthPct": 11
+    }
+  },
+  {
+    "id": "cn-us",
+    "label": "Shanghai ↔ Los Angeles",
+    "sinceYear": 2007,
+    "from": {
+      "name": "Shanghai",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "to": {
+      "name": "Los Angeles",
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "money": {
+      "value": 210.4,
+      "yoyGrowthPct": -3.8
+    },
+    "fraud": {
+      "value": 118.9,
+      "yoyGrowthPct": 6.2
+    },
+    "compliance": {
+      "value": 920,
+      "yoyGrowthPct": 4.1
+    }
+  },
+  {
+    "id": "in-uae",
+    "label": "Mumbai ↔ Dubai",
+    "sinceYear": 2013,
+    "from": {
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "to": {
+      "name": "Dubai",
+      "lat": 25.2048,
+      "lng": 55.2708
+    },
+    "money": {
+      "value": 18.7,
+      "yoyGrowthPct": 21.9
+    },
+    "fraud": {
+      "value": 9.8,
+      "yoyGrowthPct": 26.4
+    },
+    "compliance": {
+      "value": 190,
+      "yoyGrowthPct": 30.1
+    }
+  },
+  {
+    "id": "ph-sg",
+    "label": "Manila ↔ Singapore",
+    "sinceYear": 2011,
+    "from": {
+      "name": "Manila",
+      "lat": 14.5995,
+      "lng": 120.9842
+    },
+    "to": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "money": {
+      "value": 6.3,
+      "yoyGrowthPct": 11.2
+    },
+    "fraud": {
+      "value": 5.1,
+      "yoyGrowthPct": 13.7
+    },
+    "compliance": {
+      "value": 140,
+      "yoyGrowthPct": 18.4
+    }
+  },
+  {
+    "id": "mx-us",
+    "label": "Mexico City ↔ New York",
+    "sinceYear": 2007,
+    "from": {
+      "name": "Mexico City",
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    "to": {
+      "name": "New York",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "money": {
+      "value": 61,
+      "yoyGrowthPct": 4.6
+    },
+    "fraud": {
+      "value": 33.2,
+      "yoyGrowthPct": 2.1
+    },
+    "compliance": {
+      "value": 610,
+      "yoyGrowthPct": 5
+    }
+  },
+  {
+    "id": "ng-uk",
+    "label": "Lagos ↔ London",
+    "sinceYear": 2016,
+    "from": {
+      "name": "Lagos",
+      "lat": 6.5244,
+      "lng": 3.3792
+    },
+    "to": {
+      "name": "London",
+      "lat": 51.5072,
+      "lng": -0.1276
+    },
+    "money": {
+      "value": 4.1,
+      "yoyGrowthPct": 17.8
+    },
+    "fraud": {
+      "value": 6.4,
+      "yoyGrowthPct": 24.9
+    },
+    "compliance": {
+      "value": 95,
+      "yoyGrowthPct": 27.6
+    }
+  },
+  {
+    "id": "de-cn",
+    "label": "Frankfurt ↔ Shanghai",
+    "sinceYear": 2010,
+    "from": {
+      "name": "Frankfurt",
+      "lat": 50.1109,
+      "lng": 8.6821
+    },
+    "to": {
+      "name": "Shanghai",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "money": {
+      "value": 145.9,
+      "yoyGrowthPct": -1.2
+    },
+    "fraud": {
+      "value": 51.3,
+      "yoyGrowthPct": 3.4
+    },
+    "compliance": {
+      "value": 540,
+      "yoyGrowthPct": 2.7
+    }
+  },
+  {
+    "id": "br-cn",
+    "label": "São Paulo ↔ Shanghai",
+    "sinceYear": 2014,
+    "from": {
+      "name": "São Paulo",
+      "lat": -23.5505,
+      "lng": -46.6333
+    },
+    "to": {
+      "name": "Shanghai",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "money": {
+      "value": 89.3,
+      "yoyGrowthPct": 12.4
+    },
+    "fraud": {
+      "value": 22.7,
+      "yoyGrowthPct": 10.8
+    },
+    "compliance": {
+      "value": 265,
+      "yoyGrowthPct": 14.2
+    }
+  },
+  {
+    "id": "au-in",
+    "label": "Sydney ↔ Mumbai",
+    "sinceYear": 2018,
+    "from": {
+      "name": "Sydney",
+      "lat": -33.8688,
+      "lng": 151.2093
+    },
+    "to": {
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "money": {
+      "value": 3.4,
+      "yoyGrowthPct": 19.6
+    },
+    "fraud": {
+      "value": 3.9,
+      "yoyGrowthPct": 21
+    },
+    "compliance": {
+      "value": 82,
+      "yoyGrowthPct": 25.3
+    }
+  },
+  {
+    "id": "za-uk",
+    "label": "Cape Town ↔ London",
+    "sinceYear": 2012,
+    "from": {
+      "name": "Cape Town",
+      "lat": -33.9249,
+      "lng": 18.4241
+    },
+    "to": {
+      "name": "London",
+      "lat": 51.5072,
+      "lng": -0.1276
+    },
+    "money": {
+      "value": 2.1,
+      "yoyGrowthPct": -5.4
+    },
+    "fraud": {
+      "value": 4.6,
+      "yoyGrowthPct": -2.9
+    },
+    "compliance": {
+      "value": 60,
+      "yoyGrowthPct": 1.3
+    }
+  },
+  {
+    "id": "us-in",
+    "label": "New York ↔ Mumbai",
+    "sinceYear": 2009,
+    "from": {
+      "name": "New York",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "to": {
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    "money": {
+      "value": 34.7,
+      "yoyGrowthPct": 8
+    },
+    "fraud": {
+      "value": 19.5,
+      "yoyGrowthPct": 7.3
+    },
+    "compliance": {
+      "value": 300,
+      "yoyGrowthPct": 9.5
+    }
+  },
+  {
+    "id": "jp-sg",
+    "label": "Tokyo ↔ Singapore",
+    "sinceYear": 2010,
+    "from": {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "to": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "money": {
+      "value": 27.8,
+      "yoyGrowthPct": 6.4
+    },
+    "fraud": {
+      "value": 14.2,
+      "yoyGrowthPct": 5.1
+    },
+    "compliance": {
+      "value": 220,
+      "yoyGrowthPct": 8.9
+    }
+  },
+  {
+    "id": "jp-us",
+    "label": "Tokyo ↔ San Francisco",
+    "sinceYear": 2009,
+    "from": {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "to": {
+      "name": "San Francisco",
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "money": {
+      "value": 76.5,
+      "yoyGrowthPct": 5.7
+    },
+    "fraud": {
+      "value": 31.4,
+      "yoyGrowthPct": 3.2
+    },
+    "compliance": {
+      "value": 410,
+      "yoyGrowthPct": 6.1
+    }
+  },
+  {
+    "id": "jp-uk",
+    "label": "Tokyo ↔ London",
+    "sinceYear": 2015,
+    "from": {
+      "name": "Tokyo",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "to": {
+      "name": "London",
+      "lat": 51.5072,
+      "lng": -0.1276
+    },
+    "money": {
+      "value": 41.3,
+      "yoyGrowthPct": 4.8
+    },
+    "fraud": {
+      "value": 18.6,
+      "yoyGrowthPct": 4.4
+    },
+    "compliance": {
+      "value": 175,
+      "yoyGrowthPct": 7.2
+    }
+  },
+  {
+    "id": "fr-sg",
+    "label": "Paris ↔ Singapore",
+    "sinceYear": 2013,
+    "from": {
+      "name": "Paris",
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "to": {
+      "name": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "money": {
+      "value": 15.9,
+      "yoyGrowthPct": 9.3
+    },
+    "fraud": {
+      "value": 7.4,
+      "yoyGrowthPct": 8.1
+    },
+    "compliance": {
+      "value": 130,
+      "yoyGrowthPct": 12.6
+    }
+  }
+]

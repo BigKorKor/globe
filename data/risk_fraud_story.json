@@ -1,0 +1,215 @@
+{
+  "story": {
+    "id": "risk-fraud-sg",
+    "title": "Risk & Fraud SG",
+    "subtitle": "Follow the transaction",
+    "intro": {
+      "framing": [
+        "PayPal averages 600 transactions every second, with spikes as high as 12,000–13,000 during peak periods.",
+        "In our 20+ year history, we use the data captured in every transaction to protect merchants and consumers alike.",
+        "To be a great payments company, we think of ourselves as a security company first.",
+        "Current loss rate: under 0.2%.",
+        "Roughly 30% of our people work on risk and fraud.",
+        "We leverage up to 150 data points per transaction. This story shows about 6 of them."
+      ],
+      "legend": [
+        { "symbol": "white-dot", "meaning": "Venmo transactions" },
+        { "symbol": "green-line", "meaning": "Zoom (P2P) transactions" },
+        { "symbol": "white-line", "meaning": "Cross-border transactions (population >= 50,000)" }
+      ]
+    },
+    "locations": {
+      "singapore": {
+        "label": "PayPal User — Jason T.",
+        "sublabel": "Singapore, Singapore",
+        "lat": 1.3521,
+        "lng": 103.8198,
+        "streetView": { "lat": 1.2834, "lng": 103.8607, "heading": 200, "pitch": 0, "note": "Marina Bay skyline", "fallbackImage": "media/singapore_marinabay.jpg" }
+      },
+      "tokyo": {
+        "label": "Attempted Purchase / Unrecognized IP",
+        "sublabel": "Tokyo, Japan",
+        "lat": 35.6762,
+        "lng": 139.6503,
+        "streetView": { "lat": 35.6938, "lng": 139.7034, "heading": 90, "pitch": 10, "note": "Shinjuku hotel district — reveals IP maps to a hotel property", "fallbackImage": "media/tokyo_skyline.jpg" }
+      },
+      "texas": {
+        "label": "Delivery Location / Recipient — James T.",
+        "sublabel": "Austin, Texas, US",
+        "lat": 30.2672,
+        "lng": -97.7431,
+        "streetView": { "lat": 30.2711, "lng": -97.7437, "heading": 150, "pitch": 0, "note": "Residential Austin — recipient's home", "fallbackImage": "media/austin_home.jpg" }
+      }
+    },
+    "steps": [
+      {
+        "step": 1,
+        "title": "A PayPal transaction begins",
+        "focus": "singapore",
+        "status": "neutral",
+        "panel": [
+          { "text": "PayPal transaction initiated", "type": "neutral" },
+          { "text": "User: Jason T., based in Singapore", "type": "neutral" }
+        ],
+        "markers": ["singapore"],
+        "arcs": [],
+        "media": ["media/singapore_marinabay.jpg"],
+        "zoomable": false,
+        "narration": "Our story begins with a user based here in Singapore."
+      },
+      {
+        "step": 2,
+        "title": "A red flag appears",
+        "focus": "tokyo",
+        "status": "flag",
+        "panel": [
+          { "text": "New unrecognized IP address on user's account", "type": "flag" },
+          { "text": "3am Japan Standard Time", "type": "flag" },
+          { "text": "Cross-border — inherently higher risk", "type": "flag" }
+        ],
+        "markers": ["singapore", "tokyo"],
+        "arcs": [{ "from": "singapore", "to": "tokyo", "color": "red", "status": "suspicious" }],
+        "media": [],
+        "zoomable": false,
+        "narration": "The red line going to the other side of the globe indicates that we're detecting some suspect activity against Jason's account — at 3 o'clock in the morning Japan Standard Time, from an unrecognized IP address. At least, so far as Jason's concerned."
+      },
+      {
+        "step": 3,
+        "title": "A second red flag",
+        "focus": "texas",
+        "status": "flag",
+        "panel": [
+          { "text": "Delivery location is not where the user's account is based", "type": "flag" },
+          { "text": "Two red flags now identified", "type": "flag" },
+          { "text": "Most traditional risk models would decline on two red flags alone — the safe call, but the wrong one here", "type": "flag" },
+          { "text": "This purchase is legitimate; PayPal looks past the flags to the fuller story instead", "type": "resolve" }
+        ],
+        "markers": ["singapore", "tokyo", "texas"],
+        "arcs": [{ "from": "tokyo", "to": "texas", "color": "red", "status": "suspicious" }],
+        "media": ["media/gift.jpg"],
+        "zoomable": false,
+        "narration": "Add to that the fact that the delivery location is not where Jason's account is based, and we've already identified two huge red flags that, for most traditional risk models, would lead to a decline of this transaction."
+      },
+      {
+        "step": 4,
+        "title": "Risk & Fraud steps in",
+        "focus": "world",
+        "status": "neutral",
+        "panel": [
+          { "text": "Traditional risk modeling would decline this transaction outright", "type": "neutral" },
+          { "text": "Costs PayPal's merchant partners over $5 billion a year in valid transactions", "type": "flag" },
+          { "text": "PayPal approves and guarantees the transaction instead", "type": "resolve" }
+        ],
+        "markers": ["singapore", "tokyo", "texas"],
+        "arcs": [
+          { "from": "singapore", "to": "tokyo", "color": "red", "status": "suspicious" },
+          { "from": "tokyo", "to": "texas", "color": "red", "status": "suspicious" }
+        ],
+        "media": [],
+        "zoomable": false,
+        "narration": "For just the merchant partners that we at PayPal work with, we see losses of over 5 billion dollars a year in what are actually valid transactions. But PayPal can approve and guarantee this transaction, as we begin directly addressing the potential risk and red flags from the very second Jason presses that 'Pay with PayPal' button."
+      },
+      {
+        "step": 5,
+        "title": "The IP is a hotel",
+        "focus": "tokyo",
+        "status": "resolve",
+        "panel": [
+          { "text": "Unrecognized IP addresses are cleared like a name check", "type": "resolve" },
+          { "text": "IP confirmed as a valid hotel property", "type": "resolve" },
+          { "text": "Raises the possibility that Jason has traveled", "type": "resolve" }
+        ],
+        "markers": ["singapore", "tokyo"],
+        "arcs": [{ "from": "singapore", "to": "tokyo", "color": "green", "status": "validated" }],
+        "media": ["media/tokyo_skyline.jpg"],
+        "zoomable": false,
+        "narration": "Unrecognized IP addresses are cleared just as simply as asking you your first and last name. We know here that this IP is assigned to a valid hotel property, which now raises for us the possibility of travel for our user."
+      },
+      {
+        "step": 6,
+        "title": "Evidence of travel",
+        "focus": "world",
+        "status": "resolve",
+        "panel": [
+          { "text": "PayPal takes a story-based approach to risk", "type": "resolve" },
+          { "text": "Jason received a P2P payment 18 hours before the attempted purchase in Tokyo", "type": "resolve" },
+          { "text": "Consistent with him having traveled across the globe", "type": "resolve" }
+        ],
+        "markers": ["singapore", "tokyo"],
+        "arcs": [{ "from": "singapore", "to": "tokyo", "color": "green", "status": "validated" }],
+        "media": ["media/xoom_logo.png"],
+        "zoomable": false,
+        "narration": "We take a story-based approach to risk, and the story here begins with a P2P payment Jason received 18 hours prior to the attempted purchase in Tokyo — which leads us to believe he has indeed traveled across the globe."
+      },
+      {
+        "step": 7,
+        "title": "Who is the recipient?",
+        "focus": "texas",
+        "status": "resolve",
+        "panel": [
+          { "text": "Recipient in Texas identified via transaction history", "type": "resolve" },
+          { "text": "Appears to be Jason's father", "type": "resolve" }
+        ],
+        "markers": ["texas"],
+        "arcs": [{ "from": "tokyo", "to": "texas", "color": "green", "status": "validated" }],
+        "media": ["media/austin_home.jpg"],
+        "zoomable": false,
+        "narration": "And the unrecognized recipient in Texas, based on Jason's transaction history, appears to be his father."
+      },
+      {
+        "step": 8,
+        "title": "202 markets, one story",
+        "focus": "world",
+        "status": "neutral",
+        "panel": [
+          { "text": "PayPal operates in over 200 markets worldwide", "type": "neutral" },
+          { "text": "Secondary data points — like local holidays and customs — are highly valuable in evaluating risk", "type": "neutral" }
+        ],
+        "markers": ["singapore", "tokyo", "texas"],
+        "arcs": [
+          { "from": "singapore", "to": "tokyo", "color": "green", "status": "validated" },
+          { "from": "tokyo", "to": "texas", "color": "green", "status": "validated" }
+        ],
+        "media": [],
+        "zoomable": false,
+        "narration": "Being in over 200 markets around the world, secondary data points like holidays and customs can be incredibly valuable in evaluating risk."
+      },
+      {
+        "step": 9,
+        "title": "A valid transaction",
+        "focus": "world",
+        "status": "resolve",
+        "panel": [
+          { "text": "Jason is jet-lagged in Tokyo", "type": "resolve" },
+          { "text": "He received a Venmo payment from his brother", "type": "resolve" },
+          { "text": "Together, they're buying their father a gift", "type": "resolve" },
+          { "text": "Purchase valid and complete", "type": "resolve" }
+        ],
+        "markers": ["singapore", "tokyo", "texas"],
+        "arcs": [
+          { "from": "singapore", "to": "tokyo", "color": "green", "status": "validated" },
+          { "from": "tokyo", "to": "texas", "color": "green", "status": "validated" }
+        ],
+        "media": ["media/gift.jpg"],
+        "zoomable": false,
+        "narration": "Our story-based approach now concludes that Jason is jet-lagged in Tokyo, received a Venmo payment from his brother, and together they're buying their father a gift. Purchase valid and complete."
+      },
+      {
+        "step": 10,
+        "title": "Powered from Singapore",
+        "focus": "singapore",
+        "status": "finale",
+        "panel": [
+          { "text": "Over 50 petabytes of core transactional data", "type": "neutral" },
+          { "text": "Combined with PayPal's proprietary data science practices", "type": "neutral" },
+          { "text": "Uniquely positioned to protect every user from risk", "type": "neutral" }
+        ],
+        "markers": ["singapore"],
+        "arcs": [],
+        "media": ["media/paypal_shield.png"],
+        "zoomable": false,
+        "narration": "With over 50 petabytes of core transactional data, combined with our proprietary data science practices, PayPal is uniquely positioned to protect our users from any potential risk they might ever be exposed to."
+      }
+    ]
+  }
+}
